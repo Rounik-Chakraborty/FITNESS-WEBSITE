@@ -141,7 +141,7 @@ export default function AboutPage() {
                       <Icon className="w-6 h-6" />
                     </div>
                     <span className="text-[10px] font-mono text-zinc-500 font-bold">
-                      0{idx + 1} // PILLAR
+                      {`0${idx + 1} // PILLAR`}
                     </span>
                     <h3 className="text-lg font-bold text-white font-display mt-1">
                       {pillar.title}
